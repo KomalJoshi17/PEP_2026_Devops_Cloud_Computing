@@ -42,3 +42,5 @@
 Waterfall Model -> each phase must be completed before next phase
 
 Agile Model -> divide the phase, easy to qnd fro, time saving
+
+Dev + Ops = stability and automation

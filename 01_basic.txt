@@ -1,0 +1,51 @@
+## DevOps and Software Development Lifecycle (SDLC)
+
+**DevOps** is a concept that combines **Development (Dev)** and **Operations (Ops)** to improve collaboration and make software delivery faster and more reliable.
+
+In a company, when a new **requirement** is identified, different teams work together to fulfill it. First, a **planning phase** is carried out where a strategy is created to determine how the requirement will be implemented. After planning, a **document or specification** is prepared and shared with the **development team**.
+
+During the **development phase**, developers write the code for the application. Along with development, **testing** is performed to ensure the software works correctly. This testing is usually handled by **Quality Assurance (QA)** teams and may involve **automation tools** to check functionality and detect bugs.
+
+Once the software is ready, the **operations (Ops) team** is responsible for deploying, hosting, and maintaining the application. Their role is to ensure the system runs smoothly, remains stable, and stays available to users.
+
+All these stages together form the **Software Development Lifecycle (SDLC)**, which is a **theoretical framework that describes the complete process of developing, testing, deploying, and maintaining software.**
+
+---
+
+### SDLC Phases
+
+1. **Requirement Gathering and Analysis** → In this phase, the needs of the client or users are collected and analyzed. It identifies the features of the system, how users will interact with it, and how the application should function.
+
+2. **Planning** → In this stage, the project scope is defined. The team decides what needs to be built, estimates the resources required, calculates the cost, sets timelines, and predicts the number of users the system should support.
+
+3. **Design** → In this phase, the structure and architecture (wireframe) of the system are created. Developers and architects decide how different components will work together, design the system architecture, database structure, user interface, and workflows before the actual coding begins.
+
+4. **Development** → This is the phase where the actual coding of the application takes place. Developers implement the features and functionalities based on the design and requirements.
+
+5. **Testing** → In this phase, the software is tested by the Quality Assurance (QA) team to identify bugs, errors, and issues. The goal is to ensure the application works correctly and meets the required standards.
+
+6. **Deployment** → After successful testing, the application is released to production. System administrators or the operations team deploy the application so that users can start using it, and they ensure the system remains available, stable, and running smoothly.
+
+7. **Maintenance** → After deployment, the software enters the maintenance phase. In this stage, the team monitors the system, fixes bugs, updates features, improves performance, and ensures the application continues to run smoothly according to user needs.
+
+---
+
+### SDLC Cycle Diagram
+
+```mermaid
+flowchart TD
+    A[Requirement Gathering & Analysis]
+    B[Planning]
+    C[Design]
+    D[Development]
+    E[Testing]
+    F[Deployment]
+    G[Maintenance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> A

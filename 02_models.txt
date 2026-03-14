@@ -1,18 +1,16 @@
----
+SDLC Models
 
-## SDLC Models
+1. Waterfall Model
 
-### 1. Waterfall Model
+- A linear and sequential software development model.
+- Each phase must be completed before the next phase begins.
+- Once a phase is finished, it is difficult to go back and make changes.
+- Requirements are clearly defined at the beginning of the project.
+- Suitable for small projects or projects with fixed requirements.
+- Testing is usually done after the development phase is completed.
+- The development process flows step by step like a waterfall.
 
-- A **linear and sequential software development model**.
-- Each phase must be **completed before the next phase begins**.
-- Once a phase is finished, it is **difficult to go back and make changes**.
-- Requirements are **clearly defined at the beginning** of the project.
-- Suitable for **small projects or projects with fixed requirements**.
-- Testing is usually done **after the development phase is completed**.
-- The development process flows **step by step like a waterfall**.
-
-**Phases in Waterfall Model**
+Phases in Waterfall Model
 1. Requirement Analysis  
 2. System Design  
 3. Implementation (Development)  
@@ -20,19 +18,18 @@
 5. Deployment  
 6. Maintenance  
 
----
 
-### 2. Agile Model
+2. Agile Model
 
-- An **iterative and incremental software development model**.
-- Development is divided into **small cycles called sprints**.
-- Allows **changes in requirements even during development**.
-- Focuses on **continuous feedback from customers or stakeholders**.
-- Development and testing happen **simultaneously in each iteration**.
-- Encourages **team collaboration and frequent communication**.
-- Suitable for **large, complex, and frequently changing projects**.
+- An iterative and incremental software development model.
+- Development is divided into small cycles called sprints.
+- Allows changes in requirements even during development.
+- Focuses on continuous feedback from customers or stakeholders.
+- Development and testing happen simultaneously in each iteration.
+- Encourages team collaboration and frequent communication.
+- Suitable for large, complex, and frequently changing projects.
 
-**Key Concepts in Agile**
+Key Concepts in Agile
 - Sprint Planning  
 - Daily Stand-up Meetings  
 - Continuous Integration and Testing  

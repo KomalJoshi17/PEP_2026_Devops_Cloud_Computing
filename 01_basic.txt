@@ -29,23 +29,3 @@ All these stages together form the **Software Development Lifecycle (SDLC)**, wh
 7. **Maintenance** → After deployment, the software enters the maintenance phase. In this stage, the team monitors the system, fixes bugs, updates features, improves performance, and ensures the application continues to run smoothly according to user needs.
 
 ---
-
-### SDLC Cycle Diagram
-
-```mermaid
-flowchart TD
-    A[Requirement Gathering & Analysis]
-    B[Planning]
-    C[Design]
-    D[Development]
-    E[Testing]
-    F[Deployment]
-    G[Maintenance]
-
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-    G --> A

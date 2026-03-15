@@ -30,3 +30,12 @@ choco install intellijidea-community -y
 choco install vscode -y
 
 choco list
+
+signup github
+
+optional 
+https://www.godaddy.com/en-in
+
+https://hub.docker.com
+
+https://www.sonarsource.com/products/sonarqube/cloud/

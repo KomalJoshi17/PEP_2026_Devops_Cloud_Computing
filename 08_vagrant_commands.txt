@@ -70,3 +70,18 @@ if things are inside the directory then you have to do recursive delete
 rm -r folder1
 rm -rf backup (once its gone its gone -> force delete) 
 
+whoami
+date
+uptime
+history
+run command !(number) -> !111
+ctrl+l to clear
+
+file type
+Symbol            File type
+-                 regular file
+d                 directory
+l                 symbolic link
+b                 block device
+p                 named pipe
+s                 socket

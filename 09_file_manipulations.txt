@@ -1,4 +1,5 @@
 MTR -> 
+
 less student.txt -> used for viewing large files
 more student.txt -> show one page at time
 

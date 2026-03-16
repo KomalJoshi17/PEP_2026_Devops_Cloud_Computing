@@ -85,3 +85,18 @@ l                 symbolic link
 b                 block device
 p                 named pipe
 s                 socket
+
+symbolic links -> 
+- it is like a shortcut to another file
+- it does not contain any data itself
+
+ln -s /folder2/original.txt shortcut.txt (wrong path issue)
+
+ln -s original1.txt shortcut1.txt (in linux practice folder only)
+
+ln original2.txt hardlink.txt (hardlink)
+
+ls -i
+(hardlinks create same enode number)
+
+ls -li

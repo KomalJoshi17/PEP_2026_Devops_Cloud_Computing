@@ -1,0 +1,17 @@
+git init -> initialise git and creates ./git folder
+
+git status -> check the current status
+
+staging area
+git add fileName
+git add .
+
+git commit -m "first commit"
+
+git log
+
+git log --online 
+
+git log --online --graph --all
+
+git log -p

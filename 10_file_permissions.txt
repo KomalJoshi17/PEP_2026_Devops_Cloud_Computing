@@ -75,3 +75,10 @@ vagrant@vagrant:~$ sudo mkdir /fsd-project/devops
 vagrant@vagrant:~$ sudo chown :frontend /fsd-project/frontend
 vagrant@vagrant:~$ sudo chown :devops /fsd-project/devops
 vagrant@vagrant:~$ sudo chown :backend /fsd-project/backend
+
+sudo chmod 770 /fsd-project/devops
+sudo chmod 770 /fsd-project/backend
+sudo chmod 770 /fsd-project/frontend
+
+sudo passwd user1
+su - user1

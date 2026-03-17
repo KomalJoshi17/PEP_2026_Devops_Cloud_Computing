@@ -1,6 +1,8 @@
-git init -> initialise git and creates ./git folder
+git init -> initialise git and creates .git/ folder
 
 git status -> check the current status
+
+mkdir -p src/frontend src/backend tests docs 
 
 staging area
 git add fileName

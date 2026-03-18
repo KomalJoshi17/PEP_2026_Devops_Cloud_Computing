@@ -12,8 +12,25 @@ git commit -m "write a message" -> commit with a message
 
 git log
 
-git log --online 
+git log --oneline -> compact one line log
 
-git log --online --graph --all
+git log --oneline --graph --all
 
-git log -p
+vagrant@vagrant:~/eccomerce-app$ git log
+commit 6b71bbbd95b824289d4e2e433eee2d1720702c2a (HEAD -> master)
+Author: KomalJoshi17 <moudgillkomal6@gmail.com>
+Date:   Tue Mar 17 18:25:31 2026 +0000
+
+    first commit
+vagrant@vagrant:~/eccomerce-app$ git log --oneline
+6b71bbb (HEAD -> master) first commit
+vagrant@vagrant:~/eccomerce-app$ git log --oneline --graph --all
+* 6b71bbb (HEAD -> master) first commit
+
+git log -p -> what has been changed
+
+vagrant@vagrant:~/eccomerce-app$ git log -1 --oneline
+7ae58b2 (HEAD -> master) completed index.html -> shows last commit
+
+vagrant@vagrant:~/eccomerce-app$ git log -5 --oneline
+7ae58b2 (HEAD -> master) completed index.html -> shows last five commits

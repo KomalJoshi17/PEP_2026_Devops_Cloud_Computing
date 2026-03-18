@@ -1,14 +1,14 @@
 git init -> initialise git and creates .git/ folder
 
-git status -> check the current status
+git status -> check the current status , git's dashboard
 
 mkdir -p src/frontend src/backend tests docs 
 
 staging area
-git add fileName
-git add .
+git add -> stage the file for which we give name
+git add . -> stage all the changes
 
-git commit -m "first commit"
+git commit -m "write a message" -> commit with a message
 
 git log
 

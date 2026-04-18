@@ -1,0 +1,12 @@
+Jenkins ->
+It is an open source automation tool or server, it automates repetitive tasks involved in building, testing and deploying the software 
+
+CI CONTINUOUS INTEGRATION code push -> build -> testing -> reports
+
+CD CONTINUOUS DELIVERY code push -> build -> testing -> artifact's or packages -> deploy to staging area -> wait for approval -> deploy to the production 
+
+CONTINUOUS DEPLOYMENT when I am deploying something to the production that is also automated 
+
+CD CI is automated by Jenkins
+
+Write some code for some software - push to GitHub - jenkin will automatically pulls the code when some changes happened on GitHub - compile the code - unit tests or integration tests - generate artifact's - deploy ls artifact's or packages to server automatically - notify via email or stacks or teams - run jobs on a cron schedule

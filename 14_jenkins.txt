@@ -10,3 +10,7 @@ CONTINUOUS DEPLOYMENT when I am deploying something to the production that is al
 CD CI is automated by Jenkins
 
 Write some code for some software - push to GitHub - jenkin will automatically pulls the code when some changes happened on GitHub - compile the code - unit tests or integration tests - generate artifact's - deploy ls artifact's or packages to server automatically - notify via email or stacks or teams - run jobs on a cron schedule
+
+sudo apt update && sudo apt install firewalld -y
+sudo firewall-cmd --permanent --zone=public --add-port=8080/tcp
+sudo firewall-cmd --reload

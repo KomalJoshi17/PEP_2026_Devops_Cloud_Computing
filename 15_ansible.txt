@@ -8,18 +8,18 @@
 
 -> Perform zero-downtime rolling updates
 
-Ansible uses simple, human-readable scripts called playbooks to automate your tasks. You declare the desired state of a local or remote system in your playbook. Ansible ensures that the system remains in that state.4
+-> Ansible uses simple, human-readable scripts called playbooks to automate your tasks. You declare the desired state of a local or remote system in your playbook. Ansible ensures that the system remains in that state.4
 
-As automation technology, Ansible is designed around the following principles:
+-> As automation technology, Ansible is designed around the following principles:
 
-Agent-less architecture
+    Agent-less architecture
 Low maintenance overhead by avoiding the installation of additional software across IT infrastructure.
 
-Simplicity
+    Simplicity
 Automation playbooks use straightforward YAML syntax for code that reads like documentation. Ansible is also decentralized, using SSH with existing OS credentials to access remote machines.
 
-Scalability and flexibility
+    Scalability and flexibility
 Easily and quickly scale the systems you automate through a modular design that supports a large range of operating systems, cloud platforms, and network devices.
 
-Idempotence and predictability
+    Idempotence and predictability
 When the system is in the state your playbook describes, Ansible does not change anything, even if the playbook runs multiple times.
